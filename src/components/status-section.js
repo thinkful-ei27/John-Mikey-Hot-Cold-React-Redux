@@ -10,8 +10,8 @@ export default function StatusSection(props) {
 
   return (
     <section aria-labelledby="guessCount" aria-describedby="guessList">
-      <GuessCount guessCount={guessCount} />
-      <GuessList guesses={guesses} />
+      <GuessCount />
+      <GuessList />
       <AuralStatus auralStatus={auralStatus} />
     </section>
   );
